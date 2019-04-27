@@ -1,0 +1,98 @@
+baseurl = "abe-sadikov-27b449179"
+title = "Abe Sadikov"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
+
+
+[params]
+    author = "Abe Sadikov"
+    description = "Abe Sadikov's personal website"
+    keywords = "blog,developer,personal"
+    info = "Passionate, Creative and Hungry Data Scientist"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "BE YOURSELF BUT BE YOUR BEST SELF"
+    
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+    
+    dateformat = "January 2, 2006"
+
+    hideCredits = true
+    hideCopyright = true
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = ""
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = true
+    
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = ["css/extra-style.css"]
+
+[taxonomies]
+  series = "series"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/Ibrokhimsadikov/"
+
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/Ibrokhimsadikov/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://linkedin.com/in/abe-sadikov-27b449179/"
+
+
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/Aboutme/"
+        avatarurl = "images/download.png"
+        [[languages.en.menu.main]]
+        name = "Posts"
+        weight = 2
+        url = "/post/"
+
+        [[languages.en.menu.main]]
+        name = "Resume"
+        weight = 3
+        url = "/Resume/"
+
+        
+
+
+    
+
+
+        
